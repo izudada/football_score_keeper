@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Score Keeper</string>
     <string name="screen_name">Football Scores App </string>
+    <string name="reset">Reset </string>
 </resources>
