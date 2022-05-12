@@ -85,7 +85,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="liverpoolMinus"
+                    android:onClick="displayForLiverpool"
                     android:text="@string/minus"
                     android:textColor="@color/black"
                     android:textSize="50sp"
