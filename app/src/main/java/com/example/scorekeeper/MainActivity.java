@@ -25,6 +25,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     *  A method to deduct one goal count to liverpool's goal
+     */
+    public void liverpoolMinus(View view){
+        if (liverpoolScore > 0) {
+            liverpoolScore = liverpoolScore - 1;
+        }
+        displayForLiverpool(liverpoolScore);
+    }
+
+    /**
      * Displays the given score for Liverpool.
      */
     public void displayForLiverpool(int score) {
