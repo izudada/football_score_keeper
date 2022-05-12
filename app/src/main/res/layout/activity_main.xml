@@ -4,4 +4,15 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/screen_name"
+        android:fontFamily="sans-serif-medium"/>
+
+
+
 </LinearLayout>
