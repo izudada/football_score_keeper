@@ -41,4 +41,12 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.liverpool_goal);
         scoreView.setText(String.valueOf(score));
     }
+
+    /**
+     *  A button that resets the scores of both teams
+     */
+    public void reset(View view) {
+        liverpoolScore = 0;
+        displayForLiverpool(liverpoolScore);
+    }
 }
