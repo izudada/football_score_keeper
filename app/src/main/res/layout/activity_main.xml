@@ -34,6 +34,26 @@
             android:layout_weight="1">
 
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textSize="14sp"
+                android:text="@string/liverpool"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textSize="80dp"
+                android:textColor="@color/black"
+                android:text="@string/liverpool_goal"
+                android:id="@+id/liverpool_goal"/>
+
+
         </LinearLayout>
 
 
