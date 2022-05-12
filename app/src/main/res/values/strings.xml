@@ -4,4 +4,7 @@
     <string name="reset">Reset </string>
     <string name="liverpool">LIVERPOOL </string>
     <string name="liverpool_goal">0 </string>
+    <string name="plus"> + </string>
+    <string name="minus"> - </string>
+    <string name="ball_description"> Image of a ball </string>
 </resources>
