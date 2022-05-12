@@ -31,7 +31,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:gravity="center">
 
 
             <TextView
@@ -52,6 +53,13 @@
                 android:textColor="@color/black"
                 android:text="@string/liverpool_goal"
                 android:id="@+id/liverpool_goal"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ball"
+                android:scaleType="centerInside"
+                android:id="@+id/beach_image"/>
 
 
         </LinearLayout>
