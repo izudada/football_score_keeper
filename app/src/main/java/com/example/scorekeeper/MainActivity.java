@@ -15,4 +15,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    /**
+     *  A method to add one goal count to liverpool's goal
+     */
+    public void liverpoolAdd(View view){
+        liverpoolScore = liverpoolScore + 1;
+        displayForLiverpool(liverpoolScore);
+    }
+
+    /**
+     * Displays the given score for Liverpool.
+     */
+    public void displayForLiverpool(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.liverpool_goal);
+        scoreView.setText(String.valueOf(score));
+    }
 }
