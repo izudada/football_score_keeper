@@ -78,7 +78,7 @@
                     android:onClick="liverpoolAdd"
                     android:text="@string/plus"
                     android:textColor="@color/black"
-                    android:textSize="50sp"
+                    android:textSize="30sp"
                     android:backgroundTint="@color/white"
                     android:layout_marginRight="30dp"/>
 
@@ -88,7 +88,7 @@
                     android:onClick="liverpoolMinus"
                     android:text="@string/minus"
                     android:textColor="@color/black"
-                    android:textSize="50sp"
+                    android:textSize="30sp"
                     android:backgroundTint="@color/white"
                     android:layout_marginLeft="30dp"/>
 
