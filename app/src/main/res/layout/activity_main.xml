@@ -292,7 +292,7 @@
                         android:textSize="50sp"
                         android:textColor="@color/black"
                         android:text="@string/liverpool_goal"
-                        android:id="@+id/liverpool_foul"/>
+                        android:id="@+id/chelsea_foul"/>
 
                     <ImageView
                         android:layout_width="30dp"
