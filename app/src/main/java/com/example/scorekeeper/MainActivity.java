@@ -94,11 +94,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     *  A method to add one foul count to liverpool's foul variable
+     *  A method to add one foul count to chelsea's foul variable
      */
     public void chelseaFoulAdd(View view){
         chelseaFoul = chelseaFoul + 1;
-        displayForLiverpoolFoul(chelseaFoul);
+        displayForChelseaFoul(chelseaFoul);
+    }
+
+    /**
+     *  A method to deduct one foul count to liverpool's foul variable
+     */
+    public void chelseaFoulMinus(View view){
+        if (chelseaFoul > 0) {
+            chelseaFoul = chelseaFoul - 1;
+        }
+        displayForChelseaFoul(chelseaFoul);
     }
 
 
