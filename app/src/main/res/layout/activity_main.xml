@@ -165,6 +165,154 @@
         </LinearLayout>
 
 
+        <!--    Divider    -->
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+
+
+        <!--    Layout for Team Chelsea -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textSize="14sp"
+                android:text="@string/liverpool"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textSize="80sp"
+                android:textColor="@color/black"
+                android:text="@string/liverpool_goal"
+                android:id="@+id/liverpool_goal"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ball"
+                android:scaleType="centerInside"
+                android:contentDescription="@string/ball_description"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <!--   Goal layout Buttons For Liverpool  -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="liverpoolAdd"
+                    android:text="@string/plus"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:backgroundTint="@color/white"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="liverpoolMinus"
+                    android:text="@string/minus"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:backgroundTint="@color/white"
+                    android:layout_marginLeft="20dp"/>
+
+
+            </LinearLayout>
+
+
+            <!--   Foul layout For Liverpool  -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:gravity="center">
+
+                <!--   Foul Buttons For Liverpool   -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/yellow"
+                        android:onClick="liverpoolFoulAdd"
+                        android:text="@string/liverpool_foul_plus"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/yellow"
+                        android:onClick="liverpoolFoulMinus"
+                        android:text="@string/liverpool_foul_minus"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <!--   Foul Text For Liverpool   -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textSize="50sp"
+                        android:textColor="@color/black"
+                        android:text="@string/liverpool_goal"
+                        android:id="@+id/liverpool_foul"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/foul"
+                        android:scaleType="centerInside"
+                        android:contentDescription="@string/foul_description"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
     </LinearLayout>
 
     <!--  Reset Button  -->
@@ -174,6 +322,7 @@
         android:backgroundTint="@color/hot_pink"
         android:onClick="reset"
         android:text="@string/reset"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"/>
 
 </LinearLayout>
