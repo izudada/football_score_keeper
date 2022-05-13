@@ -10,4 +10,6 @@
     <string name="liverpool_foul_plus"> Foul  + </string>
     <string name="liverpool_foul_minus"> Foul  - </string>
     <string name="foul_description"> Image of a foul in football </string>
+
+    <string name="chelsea">CHELSEA </string>
 </resources>

@@ -188,7 +188,7 @@
                 android:gravity="center"
                 android:padding="4dp"
                 android:textSize="14sp"
-                android:text="@string/liverpool"
+                android:text="@string/chelsea"
                 android:fontFamily="sans-serif-medium"/>
 
             <TextView
@@ -199,7 +199,7 @@
                 android:textSize="80sp"
                 android:textColor="@color/black"
                 android:text="@string/liverpool_goal"
-                android:id="@+id/liverpool_goal"/>
+                android:id="@+id/chelsea_goal"/>
 
             <ImageView
                 android:layout_width="30dp"
@@ -221,7 +221,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="liverpoolAdd"
+                    android:onClick="ChelseaAdd"
                     android:text="@string/plus"
                     android:textColor="@color/black"
                     android:textSize="30sp"
@@ -231,7 +231,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="liverpoolMinus"
+                    android:onClick="ChelseaMinus"
                     android:text="@string/minus"
                     android:textColor="@color/black"
                     android:textSize="30sp"

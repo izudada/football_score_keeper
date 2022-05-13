@@ -71,6 +71,19 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
+
+
+
+    /**
+     * Displays the given score for Chelsea.
+     */
+    public void displayForChelsea(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.chelsea_goal);
+        scoreView.setText(String.valueOf(score));
+    }
+
+
+
     /**
      *  A button that resets the scores of both teams
      */
