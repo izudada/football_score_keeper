@@ -7,4 +7,6 @@
     <string name="plus"> + </string>
     <string name="minus"> - </string>
     <string name="ball_description"> Image of a ball </string>
+    <string name="liverpool_foul_plus"> Foul  + </string>
+    <string name="liverpool_foul_minus"> Foul  - </string>
 </resources>
