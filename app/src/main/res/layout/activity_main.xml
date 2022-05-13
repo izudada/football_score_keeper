@@ -262,7 +262,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/yellow"
-                        android:onClick="liverpoolFoulAdd"
+                        android:onClick="chelseaFoulAdd"
                         android:text="@string/liverpool_foul_plus"
                         android:textColor="@color/black" />
 
@@ -270,7 +270,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/yellow"
-                        android:onClick="liverpoolFoulMinus"
+                        android:onClick="chelseaFoulMinus"
                         android:text="@string/liverpool_foul_minus"
                         android:textColor="@color/black" />
 
