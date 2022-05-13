@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
      */
     public void reset(View view) {
         liverpoolScore = 0;
+        liverpoolFoul = 0;
         displayForLiverpool(liverpoolScore);
+        displayForLiverpoolFoul(liverpoolFoul);
     }
 }
