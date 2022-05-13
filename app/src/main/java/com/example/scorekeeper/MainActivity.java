@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void chelseaAdd(View view){
         chelseaScore = chelseaScore + 1;
-        displayForLiverpool(chelseaScore);
+        displayForChelsea(chelseaScore);
     }
 
     /**
@@ -90,7 +90,15 @@ public class MainActivity extends AppCompatActivity {
         if (chelseaScore > 0) {
             chelseaScore = chelseaScore - 1;
         }
-        displayForLiverpool(chelseaScore);
+        displayForChelsea(chelseaScore);
+    }
+
+    /**
+     *  A method to add one foul count to liverpool's foul variable
+     */
+    public void chelseaFoulAdd(View view){
+        chelseaFoul = chelseaFoul + 1;
+        displayForLiverpoolFoul(chelseaFoul);
     }
 
 
@@ -99,6 +107,14 @@ public class MainActivity extends AppCompatActivity {
      */
     public void displayForChelsea(int score) {
         TextView scoreView = (TextView) findViewById(R.id.chelsea_goal);
+        scoreView.setText(String.valueOf(score));
+    }
+
+    /**
+     * Displays the given foul for chelsea.
+     */
+    public void displayForChelseaFoul(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.chelsea_foul);
         scoreView.setText(String.valueOf(score));
     }
 
