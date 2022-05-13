@@ -80,7 +80,7 @@
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:backgroundTint="@color/white"
-                    android:layout_marginRight="30dp"/>
+                    android:layout_marginRight="20dp"/>
 
                 <Button
                     android:layout_width="wrap_content"
@@ -90,7 +90,64 @@
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:backgroundTint="@color/white"
-                    android:layout_marginLeft="30dp"/>
+                    android:layout_marginLeft="20dp"/>
+
+
+            </LinearLayout>
+
+
+            <!--   Foul layout For Liverpool  -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <!--   Foul Buttons For Liverpool   -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/yellow"
+                        android:onClick="reset"
+                        android:text="@string/liverpool_foul_plus"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/yellow"
+                        android:onClick="reset"
+                        android:text="@string/liverpool_foul_minus"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <!--   Foul Text For Liverpool   -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textSize="50sp"
+                        android:textColor="@color/black"
+                        android:text="@string/liverpool_goal"
+                        android:id="@+id/liverpool_foul"/>
+
+                </LinearLayout>
 
 
             </LinearLayout>
