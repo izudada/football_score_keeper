@@ -136,7 +136,11 @@ public class MainActivity extends AppCompatActivity {
     public void reset(View view) {
         liverpoolScore = 0;
         liverpoolFoul = 0;
+        chelseaFoul = 0;
+        chelseaScore = 0;
         displayForLiverpool(liverpoolScore);
         displayForLiverpoolFoul(liverpoolFoul);
+        displayForChelseaFoul(chelseaFoul);
+        displayForChelsea(chelseaScore);
     }
 }
