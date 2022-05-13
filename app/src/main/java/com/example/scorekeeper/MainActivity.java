@@ -74,6 +74,16 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+    /**
+     *  A method to add one goal count to chelsea's goal
+     */
+    public void chelseaAdd(View view){
+        chelseaScore = chelseaScore + 1;
+        displayForLiverpool(chelseaScore);
+    }
+
+
     /**
      * Displays the given score for Chelsea.
      */
