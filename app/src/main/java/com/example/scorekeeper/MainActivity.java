@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         if (liverpoolFoul > 0) {
             liverpoolFoul = liverpoolFoul - 1;
         }
-        displayForLiverpool(liverpoolFoul);
+        displayForLiverpoolFoul(liverpoolFoul);
     }
 
     /**
