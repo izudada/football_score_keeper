@@ -221,7 +221,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="ChelseaAdd"
+                    android:onClick="chelseaAdd"
                     android:text="@string/plus"
                     android:textColor="@color/black"
                     android:textSize="30sp"
@@ -231,7 +231,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="ChelseaMinus"
+                    android:onClick="chelseaMinus"
                     android:text="@string/minus"
                     android:textColor="@color/black"
                     android:textSize="30sp"
