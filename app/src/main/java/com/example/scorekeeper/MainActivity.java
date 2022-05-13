@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     int liverpoolScore;
+    int liverpoolFoul;
+
+    int chelseaFoul;
     int chelseaScore;
 
     @Override
