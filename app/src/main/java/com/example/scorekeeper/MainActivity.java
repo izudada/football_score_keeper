@@ -46,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * Displays the given foul for Liverpool.
+     */
+    public void displayForLiverpoolFoul(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.liverpool_foul);
+        scoreView.setText(String.valueOf(score));
+    }
+
+    /**
      *  A button that resets the scores of both teams
      */
     public void reset(View view) {
