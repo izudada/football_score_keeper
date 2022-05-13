@@ -46,6 +46,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     *  A method to deduct one foul count to liverpool's foul variable
+     */
+    public void liverpoolFoulMinus(View view){
+        if (liverpoolFoul > 0) {
+            liverpoolFoul = liverpoolFoul - 1;
+        }
+        displayForLiverpool(liverpoolFoul);
+    }
+
+    /**
      * Displays the given score for Liverpool.
      */
     public void displayForLiverpool(int score) {
