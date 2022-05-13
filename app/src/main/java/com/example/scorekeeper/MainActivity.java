@@ -83,6 +83,16 @@ public class MainActivity extends AppCompatActivity {
         displayForLiverpool(chelseaScore);
     }
 
+    /**
+     *  A method to deduct one goal count to chelsea's goal
+     */
+    public void chelseaMinus(View view){
+        if (chelseaScore > 0) {
+            chelseaScore = chelseaScore - 1;
+        }
+        displayForLiverpool(chelseaScore);
+    }
+
 
     /**
      * Displays the given score for Chelsea.
