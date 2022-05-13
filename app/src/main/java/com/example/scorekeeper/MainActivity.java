@@ -38,6 +38,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     *  A method to add one foul count to liverpool's foul variable
+     */
+    public void liverpoolFoulAdd(View view){
+        liverpoolFoul = liverpoolFoul + 1;
+        displayForLiverpoolFoul(liverpoolFoul);
+    }
+
+    /**
      * Displays the given score for Liverpool.
      */
     public void displayForLiverpool(int score) {
